@@ -1,6 +1,6 @@
 # Artifact Evaluation Reproduction for "SparseTransX: Efficient Training of Translation-Based Knowledge Graph Embeddings Using Sparse Matrix Operations", MLSys 2025
 
-This repository contains artifacts and workflows for reproducing experiments from Md Saidul Hoque Anik and Ariful Azad's MLSys 2025 paper. The scripts will produce the table depicted in Figure 7 of the paper for the _FB15K_ dataset.
+This repository contains artifacts and workflows for reproducing experiments from Md Saidul Hoque Anik and Ariful Azad's MLSys 2025 paper. The scripts will produce the table depicted in Figure 7 of the paper for the _FB15K_ dataset. **Please note that SpTransX is referred to as FastKG (former name) in the workflow**.
 
 | **SparseTransX: Efficient Training of Translation-Based Knowledge Graph Embeddings Using Sparse Matrix Operations**
 
@@ -32,4 +32,4 @@ To run the experiments, execute the following command. It will generate the trai
     ./1.run_experiments.sh
 
 # Validation of Results
-To generate the table of Figure 7 in the paper, execute the Jupyter notebook `2.validation.ipynb`. It will parse the generated text files and produce the tables for CPU and GPU for *FB15k* dataset.
+To generate the table of Figure 7 in the paper, execute the Jupyter notebook `2.validation.ipynb`. It will parse the generated text files and produce the tables for CPU and GPU for *FB15k* dataset. **Please note that SpTransX is referred to as FastKG (former name) in the workflow**.

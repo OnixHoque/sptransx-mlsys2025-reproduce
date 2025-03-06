@@ -61,10 +61,10 @@ model = TransRModel(emb_dim, rel_dim, kg_train.n_ent, kg_train.n_rel)
 criterion = MarginLoss(margin)
 
 # Move everything to CUDA if available
-if cuda.is_available():
-    cuda.empty_cache()
-    model.cuda()
-    criterion.cuda()
+# if cuda.is_available():
+#     cuda.empty_cache()
+#     model.cuda()
+#     criterion.cuda()
 
 # Define the torch optimizer to be used
 optimizer = Adam(model.parameters(), lr=lr, weight_decay=1e-5)

@@ -22,7 +22,7 @@ The experiments were tested on the following configuration.
 - CudaToolKit 12.1 (11.0 for DGLKE)
 
 # Environment Installation
-To set up the environments, run the following command. It will create two venvs. One specific to DGLKE, another for the rest.
+Git clone the current repository. Make sure to load GCC and conda environment first (e.g., `module load gcc conda`). To set up the environments, run the following command. It will create two venvs. One specific to DGLKE, another for the rest.
 
     ./0.setup_environments.sh
 

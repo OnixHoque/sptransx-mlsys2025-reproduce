@@ -1,6 +1,6 @@
-# CPU experiments, saved in cpu.txt
 mkdir -p ./cpu_scripts/output
 mkdir -p ./gpu_scripts/output
+# CPU experiments, saved in cpu.txt
 cd ./cpu_scripts
 ./run_experiments.sh
 cd ..
